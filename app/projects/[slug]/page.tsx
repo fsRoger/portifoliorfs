@@ -15,7 +15,7 @@ type ProjectProps = {
 
 }
 
-const getProjectDetails = async (slug: string): Promise<any> => {
+const getProjectDetails = async (slug: string): Promise<ProjectPageData> => {
   const query = `
   query ProjectQuery() {
     project(where: {slug: "${slug}"}) {
