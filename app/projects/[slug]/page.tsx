@@ -2,7 +2,7 @@ import { ProjectDetails } from "@/app/Components/pages/project/project-details";
 import { ProjectSections } from "../../Components/pages/project/project-sections";
 import { fetchHygraphQuery } from "@/app/utils/fetch-hygraph-query";
 import { ProjectPageData, ProjectsPageStaticData } from "@/app/types/page-info";
-import { Metadata } from 'next/head';
+import { Metadata } from 'next';
 
 export const metadata = {
   title: 'Project',
