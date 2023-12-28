@@ -4,9 +4,7 @@ import { fetchHygraphQuery } from "@/app/utils/fetch-hygraph-query";
 import { ProjectPageData, ProjectsPageStaticData } from "@/app/types/page-info";
 import { Metadata } from 'next';
 
-export const metadata = {
-  title: 'Project',
-}
+
 
 type ProjectProps = {
   params: {
