@@ -1,19 +1,19 @@
-import type { RichTextContent}  from '@graphcms/rich-text-types'
-import { KnownTech, Project } from "./projects";
-import { WorkExperience } from "./work-experience";
+import type { RichTextContent} from '@graphcms/rich-text-types'
+import { KnownTech, Project } from "./projects"
+import { WorkExperience } from "./work-experience"
 
 export type Social = {
-  url: string;
-  iconSvg: string;
+  url: string
+  iconSvg: string
 }
 
 export type HomePageInfo = {
   introduction: {
-    raw: RichTextContent;
+    raw: RichTextContent
   }
   technologies: KnownTech[]
   profilePicture: {
-    url:string;
+    url:string
   }
   socials: Social[]
   knownTechs: KnownTech[]
@@ -30,8 +30,8 @@ export type ProjectsPageData = {
 
 export type ProjectsPageStaticData = {
   projects: {
-    slug:[]
-  }
+    slug: string
+  }[]
 }
 
 export type HomePageData = {
