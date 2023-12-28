@@ -91,8 +91,8 @@ export async function generateMetadata({
           url: project.thumbnail.url,
           width: 1200,
           height: 630,
-        }
-      ]
-    }
+        },
+      ],
+    },
   }
 }
