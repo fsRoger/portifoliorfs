@@ -77,7 +77,7 @@ export const ExperienceItem = ({ experience }: ExperienceItemProps) => {
           </a>
           <h4 className='text-gray-300'>{role}</h4>
           <span className='text-gray-500'>
-            {formattedStartDate} o momento (6 meses)
+            {formattedStartDate} {formattedEndDate} ({formattedDuration})
           </span>
           <div className='text-gray-400'>
             <RichText content={description.raw} />

@@ -12,7 +12,7 @@ export const RichText = ({ ...props }: RichTextProps) => {
           <b className='text-gray-50 font-medium'>{children}</b>
         ),
         ul: ({ children }) => (
-          <ul className='list-disc list-inside pl-2 flex-col gap-1'>
+          <ul className='list-disc list-inside pl-2 flex flex-col gap-1'>
             {children}
           </ul>
         ),
