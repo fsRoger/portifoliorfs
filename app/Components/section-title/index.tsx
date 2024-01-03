@@ -7,6 +7,7 @@ type SectionTitleProps = {
   title: string;
   subtitle: string;
   className?: string
+
 }
 
 export const SectionTitle = ({
