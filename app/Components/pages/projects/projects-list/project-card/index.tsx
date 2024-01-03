@@ -23,7 +23,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       <div className='flex-1 flex flex-col p-8 '>
         <strong className='font-medium text-gray-50/90 group-hover:text-emerald-500 transition-all'>{project.title}</strong>
         <p className='mt-2 text-gray-400 line-clamp-4 '>{project.shortDescription}</p>
-        <span className='text-gray-300 text-sm font-medium block [mt-30px] truncate'>{technologies}</span>
+        <span className='text-gray-300 text-sm font-medium block mt-[30px] truncate'>{technologies}</span>
       </div>
     </div>
   )
