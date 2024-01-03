@@ -4,13 +4,15 @@ import { cn } from '@/app/lib/utils';
 import { motion } from "framer-motion";
 
 type SectionTitleProps = {
-  title: string;
-  subtitle: string;
+  children?: React.ReactNode;
+  title: string
+  subtitle: string
   className?: string
 
 }
 
 export const SectionTitle = ({
+  children,
   title,
   subtitle,
   className
