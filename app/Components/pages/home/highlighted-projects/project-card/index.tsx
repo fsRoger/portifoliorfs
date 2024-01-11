@@ -57,7 +57,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           {project.shortDescription}
         </motion.p>
 
-        <div className='flex gap-x-2 gap-y-3 flex-wrap nb-8 lg:max-w[350px] mt-[10px]'>
+        <div className='flex gap-x-2 gap-y-3 flex-wrap nb-8 lg:max-w[350px]'>
           {project.technologies.map((tech, i) => (
             <TechBadge
               key={`${project.title}-tech-${tech.name}`}
