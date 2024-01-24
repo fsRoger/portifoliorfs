@@ -32,6 +32,7 @@ export const Header = () => {
             height={49}
             src="/images/logo.jpg"
             alt="logo"
+            className="w-full h-auto"
           />
         </Link>
 
