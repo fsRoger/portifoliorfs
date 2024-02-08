@@ -32,7 +32,7 @@ export const Header = () => {
             height={100}
             src="/logorfs3.png"
             alt="logo"
-            className="w-full h-auto"
+            className=""
           />
         </Link>
 
