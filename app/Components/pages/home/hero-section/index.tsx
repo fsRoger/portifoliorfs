@@ -54,13 +54,13 @@ export const HeroSection = ({ homeInfo }: HomeSectionProps) => {
             ))}
           </div>
 
-          <div className='mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row  '>
-            <Button className='w-max shadow-button' onClick={handleContact}>
+          <div className='mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row '>
+            <Button className='w-max shadow-button animate-bounce' onClick={handleContact}>
               Entre em contato
               <HiArrowNarrowRight size={18}></HiArrowNarrowRight>
             </Button>
 
-            <div className='text-2xl text-gray-600 flex items-center h-20 gap-3 '>
+            <div className='text-2xl md:text-4xl text-emerald-400 flex items-center animate-pulse h-20 gap-3 '>
               {homeInfo.socials.map((contact, index) => (
                 <a
                   href={contact.url}

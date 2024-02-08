@@ -71,7 +71,7 @@ export const ContactForm = () => {
             maxLength={500}
           />
 
-          <Button className="w-max mx-auto mt-6 shadow-button" disabled={isSubmitting}>
+          <Button className="w-max mx-auto mt-6 shadow-button animate-bounce" disabled={isSubmitting}>
             Enviar mensagem
             <HiArrowNarrowRight size={18} />
           </Button>
