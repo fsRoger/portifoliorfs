@@ -87,7 +87,7 @@ export const HeroSection = ({ homeInfo }: HomeSectionProps) => {
             height={404}
             src={homeInfo.profilePicture.url}
             alt="foto de perfil roger ferreira"
-            className='w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 shadow-2lxl rounded-lg object-cover'
+            className='w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 shadow-2lxl rounded-lg object-contain'
           />
         </motion.div>
       </div>
